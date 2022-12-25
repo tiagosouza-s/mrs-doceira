@@ -1,6 +1,9 @@
 # mrs-doceira
-Site
 
-# projeto pessoal
+Site para loja de doces.
 
-Site estático para loja de doces.
+# Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+HTML | CSS 
