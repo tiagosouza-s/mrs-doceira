@@ -1,6 +1,6 @@
 # mrs-doceira
 
-Site para loja de doces.
+Projeto real de site para loja de doces.
 
 # Tecnologias
 
