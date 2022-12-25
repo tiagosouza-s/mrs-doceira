@@ -1,0 +1,46 @@
+body{
+    background-color:#e6dbbf ;
+}
+div{
+    font-size:20px;
+    font-family: Verdana;
+    text-align: center;
+    width: 600px;
+    margin:  auto;
+    border: 60px;
+    padding: 20px;
+}
+h1{
+    color:#f4ce6c;
+}
+h2{
+    color: brown;
+}
+h3{
+    color:#f4ce6c ;
+    border: 5px solid;
+}
+h4{
+    color:#f4ce6c ;
+    border: 5px solid;
+    
+}
+p,li{
+    text-align: justify;
+    color: #542416;
+}
+span{
+    font-weight: bold;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: green;
+    border: 10px solid green;
+    border-radius: 35px;
+}
+img{
+    width: 200px;
+    border-radius: 100px;
+
+}
