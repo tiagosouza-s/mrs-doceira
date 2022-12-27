@@ -1,14 +1,13 @@
 body{
     background-color:#e6dbbf ;
+    margin: 0
 }
 div{
     font-size:20px;
     font-family: Verdana;
     text-align: center;
-    width: 600px;
-    margin:  auto;
-    border: 60px;
-    padding: 20px;
+    border-top: 1px solid black;
+    padding: 50px;
 }
 h1{
     color:#f4ce6c;
@@ -18,29 +17,42 @@ h2{
 }
 h3{
     color:#f4ce6c ;
-    border: 5px solid;
-}
-h4{
-    color:#f4ce6c ;
-    border: 5px solid;
+    padding-top: 15px;
     
 }
-p,li{
+h4{
+    color:#f4ce6c ;;
+    margin-bottom: 15px;
+    
+    
+}
+p{
     text-align: justify;
     color: #542416;
+    width: 930px;
+    margin: 15px auto 30px auto;
+    padding-bottom:50px ;
 }
 span{
     font-weight: bold;
 }
 a{
+    font-size: 14px;
     color: aliceblue;
     text-decoration: none;
     background-color: green;
     border: 10px solid green;
     border-radius: 35px;
+    margin: 30px 10px;
+    padding: 10px  30px ;
+    font-weight: bold;
 }
 img{
     width: 200px;
     border-radius: 100px;
 
+}
+li{
+    line-height: 30px;
+    text-align: left;
 }
