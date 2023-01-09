@@ -1,67 +1,114 @@
 body{
-    margin:0;
-    background-color:#e6dbbf;
-    font-family: Tahoma;
+    margin: 0;
 }
-.secao {
-    width: 700px;
-    margin: 20px auto;
+
+/*=== Seções globais ===*/
+.secao{
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.imagem-logotipo{
-    width: 200px;
+.paragrafo{
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+    margin: 10px auto 10px auto;
+    color:#0c0c0c
+}
+
+
+/*=== Seções em destaque ===*/
+.span{
+    font-weight: bold;
+}
+
+.texto-amarelo{
+    color: #bdae10;
+}
+.texto-branco{
+    color: #ffffff;
+}
+
+/*=== 1ª seção ===*/
+.topo{
+    background-color: rgb(31, 28, 3);
+}
+.topo img{
+    width: 150px;
     border-radius: 100px;
 }
-a{
-    margin: 0 10px;
-    color:#e3b219;
+.link-topo{
+    font-size: 18px;
+    color:#e7c609;
+    border-bottom: 2px solid #e7c609 ;
+    font-weight: bold;
+    margin:0 10px 0 10px;
+  
+    text-decoration: none;    
 }
-h1{
-    font-size:28px;
-    color: #e3b219;
-    padding-top: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    border-top: 1px solid #e3b219;
-}
-h2 {
-    font-weight: normal;
-    color: #e3b219;
-    margin-top: 10px;
-}
-
-.imagem-banner {
-    width: 700px;
-}
-.secao-destaque {
-    background-color: #e3b219;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #fff;
-}
-
-.secao-destaque h3 {
-    font-size: 24px;
+.topo p{
+    padding-top: 60px;
     
-}
-.secao-destaque h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-.secao-destaque p {
-    width: 500px;
-    margin: 0 auto;
-    line-height: 30px;
-}
-
-.secao-destaque img {
+/*=== 3ª seção ===*/
+.sobre img{
     width: 400px;
 }
-span {
+h1{
+    color: #e7c609;
     font-weight: bold;
-    color: #e3b219;
+    margin-bottom: auto;
 }
+h2{
+    margin-top: 10px;
+    color: #4b4405;
+}
+
+/*=== 4ª seção ===*/
+.produtos{
+    background-color: rgb(31, 28, 3);
+}
+.paragrafo-destaque{
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+    margin: 10px auto 10px auto;
+    color: #ffffff;
+
+}
+.produtos img{
+    width:800px;
+    border: 2px solid #e7c609;
+}
+h3{
+    font-size: 28px;
+}
+
+
+/*=== 5ª seção ===*/
 .contato{
-    color: #e3b219;
+    color: #e7c609;
+}
+.lista-contato{
+    color: #0c0c0c;
+    font-size: 18px;
+    list-style: none;
+    line-height: 36px;
+}
+.contato a{
+    font-size: 24px;
+    color:#fafafa;
+    border: 2px solid #e7c609 ;
+    border-radius: 60px;
+    font-weight: bold;
+    margin:0 10px 0 10px;
+    text-decoration: none;
+    background-color: #e7c609;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
 }
