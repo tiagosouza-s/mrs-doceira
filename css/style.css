@@ -7,52 +7,44 @@ body{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.paragrafo{
-    font-size: 18px;
-    text-align: justify;
-    width: 800px;
-    margin: 10px auto 10px auto;
-    color:#0c0c0c
-}
+    background-color: #0c0c0c;
+    font-family: tahoma;
 
+}
 
 /*=== Seções em destaque ===*/
+
 .span{
     font-weight: bold;
 }
 
 .texto-amarelo{
-    color: #bdae10;
+    color: #ffea00;
 }
 .texto-branco{
     color: #ffffff;
 }
 
-/*=== 1ª seção ===*/
-.topo{
-    background-color: rgb(31, 28, 3);
-}
-.topo img{
-    width: 150px;
-    border-radius: 100px;
-}
+/*=== Seção Topo ===*/
 .link-topo{
     font-size: 18px;
     color:#e7c609;
     border-bottom: 2px solid #e7c609 ;
     font-weight: bold;
-    margin:0 10px 0 10px;
-  
+    margin:10px 10px 20px 10px;
     text-decoration: none;    
 }
-.topo p{
-    padding-top: 60px;
-    
-    text-align: center;
-}
 
-/*=== 3ª seção ===*/
+
+/*=== Seção Banner ===*/
+.banner{
+    background-color: rgb(31, 28, 3);
+    background-image: url('../img/img6.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+/*=== Seção Sobre ===*/
 .sobre img{
     width: 400px;
 }
@@ -62,37 +54,49 @@ h1{
     margin-bottom: auto;
 }
 h2{
-    margin-top: 10px;
+    
+    margin-top: 100px;
     color: #4b4405;
 }
-
-/*=== 4ª seção ===*/
-.produtos{
-    background-color: rgb(31, 28, 3);
-}
-.paragrafo-destaque{
+.lista-sobre{
+    color:#9c8d06;
+    line-height: 55px;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     width: 800px;
-    margin: 10px auto 10px auto;
-    color: #ffffff;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
 
+/*=== Seção Divulgação ===*/
+.secao-divulgacao{
+    background-image:url('../img/divulgação.jpg');
+    background-attachment: fixed;
+    height: 450px;
+}
+/*=== Seção Produtos ===*/
+.produtos{
+    background-color: #0c0c0c;
+  
 }
 .produtos img{
-    width:800px;
+    width:450px;
+    height: 250px;
+
     border: 2px solid #e7c609;
 }
 h3{
     font-size: 28px;
+    color:#e7c609;
 }
 
 
-/*=== 5ª seção ===*/
+/*=== Seção contato ===*/
 .contato{
     color: #e7c609;
 }
 .lista-contato{
-    color: #0c0c0c;
+    color: #c5ae45;
     font-size: 18px;
     list-style: none;
     line-height: 36px;
