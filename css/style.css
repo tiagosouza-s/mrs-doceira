@@ -1,5 +1,8 @@
-body{
+*{
     margin: 0;
+}
+body{
+    height: 100%;
 }
 
 /*=== Seções globais ===*/
@@ -12,6 +15,13 @@ body{
     font-family: tahoma;
 
 }
+.limita-largura {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 
 /*=== Seções em destaque ===*/
 
@@ -43,7 +53,7 @@ body{
     
     background-image: url('../img/img6.jpg');
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: 50%;
     min-height: 600px;
 }
 /*=== Seção Sobre ===*/
@@ -51,15 +61,16 @@ body{
     width: 100%;
 }
 h1{
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    font-size: 90px;
     color: #e7c609;
     font-weight: bold;
     margin-bottom: auto;
+    width: 50%;
 }
-h2{
-    
-    margin-top: 100px;
-    color: #4b4405;
-}
+
 .lista-sobre{
     width: 100%;
     color:#9c8d06;
@@ -69,12 +80,15 @@ h2{
     margin: 0 auto;
     padding: 50px 10px;
 }
+.container{
+    position: relative;
+}
 
 /*=== Seção Divulgação ===*/
 .secao-divulgacao{
     background-image: url('../img/divulgação.jpg');
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: 50%;
     height: 250px;
     
 }
@@ -84,7 +98,6 @@ h2{
   
 }
 .produtos img{
-    width: calc(100% /3 ) - 450px;
     margin: 5px 5px;
     height: 250px;
     
@@ -106,14 +119,14 @@ h3{
     font-size: 18px;
     list-style: none;
     line-height: 36px;
+    margin-bottom: 50px;
 }
 .contato a{
     font-size: 24px;
-    color:#fafafa;
+    color:#0a0000;
     border: 2px solid #e7c609 ;
     border-radius: 60px;
     font-weight: bold;
-    margin:0 10px 0 10px;
     text-decoration: none;
     background-color: #e7c609;
     padding-left: 15px;
