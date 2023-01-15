@@ -3,17 +3,14 @@
 }
 body{
     height: 100%;
+    font-family: tahoma;
 }
-
 /*=== Seções globais ===*/
 .secao{
     width: 100%;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #0c0c0c;
-    font-family: tahoma;
-
 }
 .limita-largura {
     width: 100%;
@@ -21,14 +18,10 @@ body{
     max-width: 1024px;
     margin: 0 auto;
 }
-
-
 /*=== Seções em destaque ===*/
-
 .span{
     font-weight: bold;
 }
-
 .texto-amarelo{
     color: #ffea00;
 }
@@ -37,85 +30,116 @@ body{
 }
 
 /*=== Seção Topo ===*/
-.link-topo{
- 
-    font-size: 18px;
-    color:#e7c609;
-    border-bottom: 2px solid #e7c609 ;
-    font-weight: bold;
-    margin:10px 10px 20px 10px;
-    text-decoration: none;    
-}
-
-
-/*=== Seção Banner ===*/
-.banner{
-    
-    background-image: url('../img/img6.jpg');
-    background-attachment: fixed;
-    background-position: 50%;
-    min-height: 600px;
-}
-/*=== Seção Sobre ===*/
-.sobre{
-    width: 100%;
+.topo{
+    background-color: #41271F;
+    padding-bottom: 60px ;
 }
 h1{
     position: absolute;
-    top: 160px;
-    left: 70px;
-    font-size: 90px;
+    top: 0;
+    left: 0;
+    font-size: 36px;
     color: #e7c609;
     font-weight: bold;
-    margin-bottom: auto;
     width: 50%;
+    margin-top: 20px ;
 }
-
-.lista-sobre{
-    width: 100%;
-    color:#9c8d06;
-    line-height: 55px;
+.topo p{
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    margin-top: 20px;
+}
+.link-topo{
     font-size: 18px;
-    text-align: left;
-    margin: 0 auto;
-    padding: 50px 10px;
+    color:#41271F;
+    background-color: #e7c609;
+    border-radius: 60px;
+    font-weight: bold;
+    text-decoration: none;  
+    padding: 5px 30px;  
 }
-.container{
-    position: relative;
-}
-
-/*=== Seção Divulgação ===*/
-.secao-divulgacao{
-    background-image: url('../img/divulgação.jpg');
+/*=== Seção Banner ===*/
+.banner{  
+    background-image: url('../img/img6.jpg');
     background-attachment: fixed;
     background-position: 50%;
-    height: 250px;
-    
+    min-height: 400px;
 }
-/*=== Seção Produtos ===*/
-.produtos{
-    background-color: #0c0c0c;
-  
+/*=== Seção Sobre ===*/
+.sobre{
+    background-color: #fff;
 }
-.produtos img{
-    margin: 5px 5px;
-    height: 250px;
-    
-
-    border: 2px solid #e7c609;
+.sobre{
+    width: 100%;
 }
 h3{
     font-size: 28px;
     color:#e7c609;
+    text-align: center;
+    margin-bottom: 50px;   
+}
+.lista-sobre{
+    width: 100%;
+    color:#41271F;
+    line-height: 55px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
 }
 
-
+/*=== Seção Divulgação ===*/
+.secao-divulgacao{
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('../img/divulgação.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.secao-divulgacao h3{
+    font-size: 36px;
+    background-color: rgb(236, 221, 15);
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color:#41271F;
+    display: inline;
+    padding: 2px  25px;   
+}
+/*=== Seção Produtos ===*/
+.produtos{
+    background-color: #41271F;
+}
+.produtos img{
+    margin: 5px 5px;
+    height: 250px;
+    border: 2px solid #e7c609;
+}
+.produtos h3{
+    color:#e7c609;
+}
+/*=== Seção galeria ===*/
+.galeria{
+    display: flex;
+    overflow: scroll;
+    margin: 0 auto 20px auto;
+}
+.galeria img{
+    width: 300px;
+    margin: 10px;
+}
+.imagem-sombra{
+    box-shadow: 10px 10px 10px #858481;
+}
 /*=== Seção contato ===*/
 .contato{
-    color: #e7c609;
+    background-color: #FFFFFF;
+    color: #41271F
 }
 .lista-contato{
-    color: #c5ae45;
+    color: #41271F;
     font-size: 18px;
     list-style: none;
     line-height: 36px;
@@ -123,7 +147,7 @@ h3{
 }
 .contato a{
     font-size: 24px;
-    color:#0a0000;
+    color:#41271F;
     border: 2px solid #e7c609 ;
     border-radius: 60px;
     font-weight: bold;
@@ -133,7 +157,5 @@ h3{
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-weight: bold;
-   
-    
+    font-weight: bold;   
 }
