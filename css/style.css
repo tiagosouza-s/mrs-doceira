@@ -61,8 +61,8 @@ h1{
 }
 /*=== Seção Banner ===*/
 .banner{  
-    background-image: url('../img/img6.jpg');
-    background-attachment: fixed;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
     background-position: 50%;
     min-height: 400px;
 }
@@ -111,6 +111,9 @@ h3{
 /*=== Seção Produtos ===*/
 .produtos{
     background-color: #41271F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 .produtos img{
     margin: 5px 5px;
@@ -119,6 +122,8 @@ h3{
 }
 .produtos h3{
     color:#e7c609;
+    visibility: hidden;
+    display: none;
 }
 /*=== Seção galeria ===*/
 .galeria{
@@ -127,8 +132,9 @@ h3{
     margin: 0 auto 20px auto;
 }
 .galeria img{
-    width: 300px;
+    width: 350px;
     margin: 10px;
+    
 }
 .imagem-sombra{
     box-shadow: 10px 10px 10px #858481;
